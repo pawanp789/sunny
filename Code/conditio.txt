@@ -1,0 +1,364 @@
+ if(cc1==1)
+			{
+				if(prain1>60)
+						{
+						document.getElementById('divcci1').innerHTML="<img src=\"images/InDG_Cloud_condition/suns5.png\"/>";
+						document.getElementById('divcct1').innerHTML="Cloudy sky";
+						}
+						else
+						{
+						 document.getElementById('divcci1').innerHTML="<img src=\"images/InDG_Cloud_condition/suns1.png\"/>";
+				 document.getElementById('divcct1').innerHTML="Clear Sky";
+						}
+			}
+					else if(cc1==2)
+			{
+				document.getElementById('divcci1').innerHTML="<img src=\"images/InDG_Cloud_condition/suns2.png\"/>";
+						document.getElementById('divcct1').innerHTML="Mainly Clear sky";
+			} 
+					else if(cc1==3)
+			{
+				document.getElementById('divcci1').innerHTML="<img src=\"images/InDG_Cloud_condition/suns3.png\"/>";
+				document.getElementById('divcct1').innerHTML="Partly cloudy sky";
+			} 
+					else if(cc1==4)
+			{
+			   document.getElementById('divcci1').innerHTML="<img src=\"images/InDG_Cloud_condition/suns4.png\"/>";
+			   document.getElementById('divcct1').innerHTML="Mainly cloudy sky"; 
+			} 
+					else if(cc1==5)
+			{
+				document.getElementById('divcci1').innerHTML="<img src=\"images/InDG_Cloud_condition/suns5.png\"/>";
+				document.getElementById('divcct1').innerHTML="Cloudy sky";
+			} 
+	  
+
+					if(cc2==1)
+			{
+					   if(prain2>60)
+						{
+						document.getElementById('divcci2').innerHTML="<img src=\"images/InDG_Cloud_condition/suns5.png\"/>";
+						document.getElementById('divcct2').innerHTML="Cloudy sky";
+						}
+						else
+						{
+						 document.getElementById('divcci2').innerHTML="<img src=\"images/InDG_Cloud_condition/suns1.png\"/>";
+						 document.getElementById('divcct2').innerHTML="Clear Sky";
+						}
+			}
+					else if(cc2==2)
+			{
+				document.getElementById('divcci2').innerHTML="<img src=\"images/InDG_Cloud_condition/suns2.png\"/>";
+						document.getElementById('divcct2').innerHTML="Mainly Clear sky";
+			} 
+				 else if(cc2==3)
+			{
+				document.getElementById('divcci2').innerHTML="<img src=\"images/InDG_Cloud_condition/suns3.png\"/>";
+				document.getElementById('divcct2').innerHTML="Partly cloudy sky";
+			} 
+				else if(cc2==4)
+			{
+			   document.getElementById('divcci2').innerHTML="<img src=\"images/InDG_Cloud_condition/suns4.png\"/>";
+			   document.getElementById('divcct2').innerHTML="Mainly cloudy sky"; 
+			} 
+				else if(cc2==5)
+			{
+				document.getElementById('divcci2').innerHTML="<img src=\"images/InDG_Cloud_condition/suns5.png\"/>";
+				document.getElementById('divcct2').innerHTML="Cloudy sky";
+			} 
+	   
+
+				if(cc3==1)
+			{
+					   if(prain3>60)
+						{
+						document.getElementById('divcci3').innerHTML="<img src=\"images/InDG_Cloud_condition/suns5.png\"/>";
+						document.getElementById('divcct3').innerHTML="Cloudy sky";
+						}
+						else
+						{
+						 document.getElementById('divcci3').innerHTML="<img src=\"images/InDG_Cloud_condition/suns1.png\"/>";
+						 document.getElementById('divcct3').innerHTML="Clear Sky";
+						}
+			}
+					else if(cc3==2)
+			{
+				document.getElementById('divcci3').innerHTML="<img src=\"images/InDG_Cloud_condition/suns2.png\"/>";
+						document.getElementById('divcct3').innerHTML="Mainly Clear sky";
+			} 
+				else if(cc3==3)
+			{
+				document.getElementById('divcci3').innerHTML="<img src=\"images/InDG_Cloud_condition/suns3.png\"/>";
+				document.getElementById('divcct3').innerHTML="Partly cloudy sky";
+			} 
+				else if(cc3==4)
+			{
+			   document.getElementById('divcci3').innerHTML="<img src=\"images/InDG_Cloud_condition/suns4.png\"/>";
+			   document.getElementById('divcct3').innerHTML="Mainly cloudy sky"; 
+			} 
+				else if(cc3==5)
+			{
+				document.getElementById('divcci3').innerHTML="<img src=\"images/InDG_Cloud_condition/suns5.png\"/>";
+				document.getElementById('divcct3').innerHTML="Cloudy sky";
+			}
+
+
+// wind direction code below
+
+
+
+
+	var img1;
+			var img2;
+			var img3;
+				 
+			if(dir1==0 || dir1==360)
+			{
+				img1 = "images/wind_image/winds2.png";
+			  //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage2.png\">"+" N";
+			}
+			else if(dir1>0 && dir1<45)
+			{
+				img1 = "images/wind_image/winds7.png";
+			   //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage7.png\"/>"+" NNE" ;
+			}
+				else if(dir1==45)
+			{
+					img1 = "images/wind_image/winds5.png";
+			   //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage5.png\"/>"+" NE";
+			} 
+				else if(dir1>45 && dir1<90)
+			{
+					img1 = "images/wind_image/winds6.png";
+			   //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage6.png\"/>"+" ENE";		 
+			}
+			else if(dir1==90)
+			{
+				img1 = "images/wind_image/winds1.png";
+				//document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage1.png\"/>"+" E";		
+			}
+			else if(dir1>90 && dir1<135)
+			{
+				img1 = "images/wind_image/winds16.png";
+				//document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage16.png\"/>"+" ESE";
+			}
+				else if(dir1==135)
+			{
+					img1 = "images/wind_image/winds15.png";
+				//document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage15.png\"/>"+" SE";
+			}
+			else if(dir1>135 && dir1<180)
+			{
+				img1 = "images/wind_image/winds14.png";
+				//document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage14.png\"/>"+" SSE";
+			}
+			else if(dir1==180)
+			{
+				img1 = "images/wind_image/winds4.png";
+			   //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage4.png\"/>"+" S";
+			}
+			else if(dir1>180 && dir1<225)
+			{
+				img1 = "images/wind_image/winds13.png";
+			   //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage13.png\"/>"+" SSW";
+			}
+				else if(dir1==225)
+			{
+					img1 = "images/wind_image/winds12.png";
+			   //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage12.png\"/>"+" SW";
+			}
+			else if(dir1>225 && dir1<270)
+			{
+				img1 = "images/wind_image/winds11.png";
+			   //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage11.png\"/>"+" WSW";
+			}
+			else if(dir1==270)
+			{
+				img1 = "images/wind_image/winds3.png";
+			   //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage3.png\"/>"+" W";
+			}
+			else if(dir1>270 && dir1<315)
+			{
+				img1 = "images/wind_image/winds10.png";
+			   //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage10.png\"/>"+" WNW";
+			}
+			else if(dir1==315)
+			{
+				img1 = "images/wind_image/winds9.png";
+			   //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage9.png\"/>"+" NW";
+			}
+			else if(dir1>315 && dir1<360)
+			{
+				img1 = "images/wind_image/winds8.png";
+			   //document.getElementById('divwdiri1').innerHTML="<img src=\"images/wind_image/wimage8.png\"/>"+" NNW";
+			}
+
+		  
+			if(dir2==0 || dir2==360)
+			{
+				img2 = "images/wind_image/winds2.png";
+			  //document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage2.png\">"+" N";
+			}
+			else if(dir2>0 && dir2<45)
+			{
+				img2 = "images/wind_image/winds7.png";
+			   //document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage7.png\"/>"+" NNE" ;
+			}
+				else if(dir2==45)
+			{
+					img2 = "images/wind_image/winds5.png";
+			   //document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage5.png\"/>"+" NE";
+			} 
+				else if(dir2>45 && dir2<90)
+			{
+					img2 = "images/wind_image/winds6.png";
+			  // document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage6.png\"/>"+" ENE";		 
+			}
+			else if(dir2==90)
+			{
+				img2 = "images/wind_image/winds1.png";
+				//document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage1.png\"/>"+" E";		
+			}
+			else if(dir2>90 && dir2<135)
+			{
+				img2 = "images/wind_image/winds16.png";
+			   // document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage16.png\"/>"+" ESE";
+			}
+				else if(dir2==135)
+			{
+					img2 = "images/wind_image/winds15.png";
+				//document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage15.png\"/>"+" SE";
+			}
+			else if(dir2>135 && dir2<180)
+			{
+				img2 = "images/wind_image/winds14.png";
+			   // document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage14.png\"/>"+" SSE";
+			}
+			else if(dir2==180)
+			{
+				img2 = "images/wind_image/winds4.png";
+			  // document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage4.png\"/>"+" S";
+			}
+			else if(dir2>180 && dir2<225)
+			{
+				img2 = "images/wind_image/winds13.png";
+			   //document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage13.png\"/>"+" SSW";
+			}
+				else if(dir2==225)
+			{
+					img2 = "images/wind_image/winds12.png";
+			   //document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage12.png\"/>"+" SW";
+			}
+			else if(dir2>225 && dir2<270)
+			{
+				img2 = "images/wind_image/winds11.png";
+			   //document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage11.png\"/>"+" WSW";
+			}
+			else if(dir2==270)
+			{
+				img2 = "images/wind_image/winds3.png";
+			   //document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage3.png\"/>"+" W";
+			}
+			else if(dir2>270 && dir2<315)
+			{
+				img2 = "images/wind_image/winds10.png";
+			  // document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage10.png\"/>"+" WNW";
+			}
+			else if(dir2==315)
+			{
+				img2 = "images/wind_image/winds9.png";
+			  // document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage9.png\"/>"+" NW";
+			}
+			else if(dir2>315 && dir2<360)
+			{
+				img2 = "images/wind_image/winds8.png";
+			  // document.getElementById('divwdiri2').innerHTML="<img src=\"images/wind_image/wimage8.png\"/>"+" NNW";
+			}
+
+				
+			if(dir3==0 || dir3==360)
+			{
+				img3 = "images/wind_image/winds2.png";
+			 // document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage2.png\">"+" N";
+			}
+			else if(dir3>0 && dir3<45)
+			{
+				img3 = "images/wind_image/winds7.png";
+			  // document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage7.png\"/>"+" NNE" ;
+			}
+				 else if(dir3==45)
+			{
+					img3 = "images/wind_image/winds5.png";
+			   //document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage5.png\"/>"+" NE";
+			} 
+				else if(dir3>45 && dir3<90)
+			{
+					img3 = "images/wind_image/winds6.png";
+			   //document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage6.png\"/>"+" ENE";		 
+			}
+			else if(dir3==90)
+			{
+				img3 = "images/wind_image/winds1.png";
+			 //   document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage1.png\"/>"+" E";		
+			}
+			else if(dir3>90 && dir3<135)
+			{
+				img3 = "images/wind_image/winds16.png";
+			   // document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage16.png\"/>"+" ESE";
+			}
+				else if(dir3==135)
+			{
+					img3 = "images/wind_image/winds15.png";
+				//document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage15.png\"/>"+" SE";
+			}
+			else if(dir3>135 && dir3<180)
+			{
+				img3 = "images/wind_image/winds14.png";
+				//document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage14.png\"/>"+" SSE";
+			}
+			else if(dir3==180)
+			{
+				img3 = "images/wind_image/winds4.png";
+			  // document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage4.png\"/>"+" S";
+			}
+			else if(dir3>180 && dir3<225)
+			{
+				img3 = "images/wind_image/winds13.png";
+			   //document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage13.png\"/>"+" SSW";
+			}
+				else if(dir3==225)
+			{
+					img3 = "images/wind_image/winds12.png";
+			   //document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage12.png\"/>"+" SW";
+			}
+			else if(dir3>225 && dir3<270)
+			{
+				img3 = "images/wind_image/winds11.png";
+			   //document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage11.png\"/>"+" WSW";
+			}
+			else if(dir3==270)
+			{
+				img3 = "images/wind_image/winds3.png";
+			   //document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage3.png\"/>"+" W";
+			}
+			else if(dir3>270 && dir3<315)
+			{
+				img3 = "images/wind_image/winds10.png";
+			   //document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage10.png\"/>"+" WNW";
+			}
+			else if(dir3==315)
+			{
+				img3 = "images/wind_image/winds9.png";
+			   //document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage9.png\"/>"+" NW";
+			}
+			else if(dir3>315 && dir3<360)
+			{
+				img3 = "images/wind_image/winds8.png";
+			   //document.getElementById('divwdiri3').innerHTML="<img src=\"images/wind_image/wimage8.png\"/>"+" NNW";
+			} 
+	 
+
+
+
+
+ 
